@@ -65,6 +65,24 @@ export function ContactMap() {
       return;
     }
 
+    // Avoid loading the script multiple times (e.g. React Strict Mode double-mount)
+    const existingScript = document.querySelector(
+      'script[src*="maps.googleapis.com/maps/api/js"]'
+    );
+    if (existingScript) {
+      let attempts = 0;
+      const maxAttempts = 60; // ~3 seconds max
+      const tryInit = () => {
+        if (window.google?.maps) {
+          initMap();
+        } else if (attempts++ < maxAttempts) {
+          setTimeout(tryInit, 50);
+        }
+      };
+      tryInit();
+      return;
+    }
+
     window.initContactMap = initMap;
     const script = document.createElement("script");
     script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initContactMap`;
