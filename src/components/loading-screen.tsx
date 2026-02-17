@@ -2,7 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-import { PRELOAD_IMAGES } from "@/lib/preload-images";
+const HERO_IMAGES = [
+  "/images/hero/1.jpg",
+  "/images/hero/2.jpg",
+  "/images/hero/3.jpg",
+];
 
 const MIN_DISPLAY_MS = 1800;
 const MAX_WAIT_MS = 6000;
@@ -19,15 +23,6 @@ function preloadImages(srcs: string[]): Promise<void> {
         })
     )
   ).then(() => {});
-}
-
-/** Next.js Image optimized URLs - preload these so Image components show instantly */
-function getNextImagePreloadUrls(paths: string[], width = 1200): string[] {
-  if (typeof window === "undefined") return [];
-  return paths.map(
-    (path) =>
-      `/_next/image?url=${encodeURIComponent(path)}&w=${width}&q=75`
-  );
 }
 
 export function LoadingScreen({ children }: { children: React.ReactNode }) {
@@ -58,11 +53,7 @@ export function LoadingScreen({ children }: { children: React.ReactNode }) {
 
     const timeout = setTimeout(finishLoading, MAX_WAIT_MS);
 
-    // Preload raw paths (for CSS backgrounds, etc.) + Next.js optimized URLs (for Image components)
-    const nextUrls = getNextImagePreloadUrls(PRELOAD_IMAGES);
-    const allUrls = [...PRELOAD_IMAGES, ...nextUrls];
-
-    preloadImages(allUrls).then(() => {
+    preloadImages(HERO_IMAGES).then(() => {
       clearTimeout(timeout);
       finishLoading();
     });
