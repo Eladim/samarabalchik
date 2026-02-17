@@ -132,6 +132,18 @@
   animation: room-frame-glow 1.5s ease-in-out infinite;
 }
 
+@keyframes loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
 @keyframes room-frame-glow {
   0%,
   100% {
