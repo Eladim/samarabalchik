@@ -62,7 +62,7 @@ export function Header() {
         <Link href="/" className="flex-shrink-0">
           <Image
             src="/icons/logo.png"
-            alt="Samara Complex"
+            alt="Samara"
             width={180}
             height={60}
             className="h-14 w-auto object-contain"

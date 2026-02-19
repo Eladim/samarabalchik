@@ -19,7 +19,7 @@ export function ContactMap() {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="Map showing Samara Complex location"
+        title="Map showing Samara location"
         className="h-full w-full"
       />
     </div>

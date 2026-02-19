@@ -42,7 +42,7 @@ export function AboutContent() {
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
               <Image
                 src={ABOUT_US_IMAGE}
-                alt="Samara Complex - Hotel exterior and pool"
+                alt="Samara - Hotel exterior and pool"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 40vw"
@@ -71,7 +71,7 @@ export function AboutContent() {
                 <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[400px]">
                   <Image
                     src={RESTAURANT_IMAGE}
-                    alt="Samara Complex Restaurant interior"
+                    alt="Samara Restaurant interior"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"

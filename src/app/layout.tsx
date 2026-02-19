@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import { siteUrl } from "@/lib/seo";
+import { HotelJsonLd } from "@/components/hotel-json-ld";
 import { LanguageProvider } from "@/contexts/language-context";
 import { LoadingScreen } from "@/components/loading-screen";
 import { Header } from "@/components/header";
@@ -19,9 +21,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Samara Complex | Hotel in Balchik",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Samara | Hotel in Balchik",
+    template: "%s | Samara",
+  },
   description:
-    "Welcome to Samara Complex - Your accommodation in Balchik, the Pearl of the Northern Black Sea.",
+    "Welcome to Samara - Your accommodation in Balchik, the Pearl of the Northern Black Sea.",
+  openGraph: {
+    type: "website",
+    locale: "en",
+    siteName: "Samara",
+    title: "Samara | Hotel in Balchik",
+    description:
+      "Welcome to Samara - Your accommodation in Balchik, the Pearl of the Northern Black Sea.",
+    images: [
+      {
+        url: "/images/hero/1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Samara - Hotel in Balchik",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Samara | Hotel in Balchik",
+    description:
+      "Welcome to Samara - Your accommodation in Balchik, the Pearl of the Northern Black Sea.",
+  },
 };
 
 export default function RootLayout({
@@ -34,6 +62,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <HotelJsonLd />
         <LanguageProvider>
           <LoadingScreen>
             <div className="flex min-h-screen flex-col">

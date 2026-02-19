@@ -28,19 +28,19 @@ export const translations = {
       title: "Rooms",
       subtitle: "Choose your perfect stay",
       double: "Double Room",
-      doubleWelcome: "Welcome to the double rooms of Complex Samara!",
+      doubleWelcome: "Welcome to the double rooms of Samara!",
       doubleFeatures:
         "Rooms are equipped with: Two beds or bedroom, Bathroom with WC and shower cabin, Balcony with table, chairs and space for clothes, Single or double sofa bed, Wardrobe, Dressing table with mirror, Chair, AC, Central heating, Flat-screen TV, Cable and satellite TV, WiFi and wired internet, Refrigerator, Hairdryer, Electric kettle, Dishes. Upon request - baby cot (free). Parquet flooring.",
       studio: "Studio",
-      studioWelcome: "Welcome to the studios of Samara Complex!",
+      studioWelcome: "Welcome to the studios of Samara!",
       studioFeatures:
         "The studios are furnished with: Two beds or a bedroom, Bathroom with WC and shower cabin, Balcony with table, chairs and space for clothes, Single or double sofa bed, Wardrobe, Dressing table with mirror, Chair, Air conditioning, Central heating, Flat screen TV screen, Cable and satellite TV, WiFi and cable internet, Refrigerator, Hair dryer, Dining table, Kitchen box, Electric stoves, Microwave oven, Aspirator, Toaster, Electric kettle, Dishes and cutlery. On request - a baby cot/ free of charge/. Type of flooring - parquet.",
       apartment1: "Apartment 1 Bedroom",
-      apartment1Welcome: "Welcome to the apartments of Complex Samara!",
+      apartment1Welcome: "Welcome to the apartments of Samara!",
       apartment1Features:
         "The apartments are furnished with: Bedroom with two beds or one bedroom, Living room with kitchenette, double and single sofa beds, Bathroom with WC and shower cabin, Balcony with table, chairs and space for clothes, Wardrobe, Dressing table with mirror, Chair, Air conditioning to the bedroom and living room. On request - a baby cot/ free of charge/. Type of flooring - parquet.",
       apartment2: "Apartment 2 Bedrooms",
-      apartment2Welcome: "Welcome to the two-bedroom apartments of Complex Samara!",
+      apartment2Welcome: "Welcome to the two-bedroom apartments of Samara!",
       apartment2Features:
         "The apartments are furnished with: Two bedrooms with two beds or one bedroom, Living room with kitchenette, double and single sofa beds, Bathroom with WC and shower cabin, Balcony with table, chairs and space for clothes, Wardrobe, Dressing table with mirror, Chair, Air conditioning, Central heating, Flat screen TV, Cable and satellite TV, WiFi and cable internet, Refrigerator, Hair dryer, Dining table, Electric stoves, Microwave oven, Hood, Toaster, Electric kettle, Crockery and cutlery, Separate entrance doors to the bedroom and living room. On request - a baby cot/ free of charge/. Type of flooring - parquet.",
       readMore: "READ MORE",

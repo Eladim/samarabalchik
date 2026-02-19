@@ -13,9 +13,9 @@ import {
 import { Button } from "@/components/ui/button";
 
 const heroImages = [
-  { src: "/images/hero/1.jpg", alt: "Samara Complex - Hotel exterior and pool" },
-  { src: "/images/hero/2.jpg", alt: "Samara Complex - Pool area" },
-  { src: "/images/hero/3.jpg", alt: "Samara Complex - Resort view" },
+  { src: "/images/hero/1.jpg", alt: "Samara - Hotel exterior and pool" },
+  { src: "/images/hero/2.jpg", alt: "Samara - Pool area" },
+  { src: "/images/hero/3.jpg", alt: "Samara - Resort view" },
 ];
 
 export function HeroCarousel() {

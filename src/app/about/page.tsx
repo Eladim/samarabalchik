@@ -3,9 +3,9 @@ import Image from "next/image";
 import { AboutContent } from "@/components/about-content";
 
 export const metadata = {
-  title: "About Us | Samara Complex",
+  title: "About Us | Samara",
   description:
-    "Discover Complex Samara in Balchik - rooms, restaurant, pool, and amenities. Year-round accommodation near the Botanical Garden and Palace.",
+    "Discover Samara in Balchik - rooms, restaurant, pool, and amenities. Year-round accommodation near the Botanical Garden and Palace.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="relative h-[40vh] min-h-[250px] w-full overflow-hidden">
         <Image
           src="/images/hero/2.jpg"
-          alt="Samara Complex - About us"
+          alt="Samara - About us"
           fill
           priority
           className="object-cover"

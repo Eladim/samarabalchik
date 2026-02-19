@@ -28,19 +28,19 @@ export const translations = {
       title: "Rooms",
       subtitle: "Choose your perfect stay",
       double: "Double Room",
-      doubleWelcome: "Welcome to the double rooms of Complex Samara!",
+      doubleWelcome: "Welcome to the double rooms of Samara!",
       doubleFeatures:
         "Rooms are equipped with: Two beds, Bathroom with WC and shower cabin, Balcony, Wardrobe, Desk, Chair, AC, Central heating, Flat-screen TV, Cable and satellite TV, WiFi, Refrigerator, Hairdryer, Electric kettle, Dishes, Baby cot (free upon request). Parquet flooring.",
       studio: "Studio",
-      studioWelcome: "Welcome to the studios of Samara Complex!",
+      studioWelcome: "Welcome to the studios of Samara!",
       studioFeatures:
         "Studios are equipped with: Two beds or double bed, Bathroom with WC and shower cabin, Balcony with table, chairs and clothes rack, Single or double sofa bed, Wardrobe, Dressing table with mirror, Chair, AC, Central heating, Flat-screen TV, Cable and satellite TV, WiFi and wired internet, Refrigerator, Hairdryer, Dining table, Kitchen box, Electric hob, Microwave, Extractor hood, Toaster, Electric kettle, Dishes and cutlery. Baby cot (free upon request). Parquet flooring.",
       apartment1: "Apartment 1 Bedroom",
-      apartment1Welcome: "Welcome to the apartments of Complex Samara!",
+      apartment1Welcome: "Welcome to the apartments of Samara!",
       apartment1Features:
         "Bedroom with two beds or double bed, Living room with kitchenette, double and single sofa beds, Bathroom with WC and shower cabin, Balcony with table, chairs and clothes rack, Wardrobe, Dressing table with mirror, Chair, AC, Central heating, Flat-screen TV, Cable and satellite TV, WiFi and wired internet, Refrigerator, Hairdryer, Dining table, Electric hob, Microwave, Extractor hood, Toaster, Electric kettle, Dishes and cutlery, Separate entrance doors to bedroom and living room. Baby cot (free upon request). Parquet flooring.",
       apartment2: "Apartment 2 Bedrooms",
-      apartment2Welcome: "Welcome to the two-bedroom apartments of Complex Samara!",
+      apartment2Welcome: "Welcome to the two-bedroom apartments of Samara!",
       apartment2Features:
         "Two bedrooms, Living room with kitchenette, Bathroom with WC and shower cabin, Balcony, Wardrobe, AC, Central heating, Flat-screen TV, WiFi, Refrigerator, Hairdryer, Kitchen appliances, Dining area. Baby cot (free upon request). Parquet flooring.",
       readMore: "READ MORE",

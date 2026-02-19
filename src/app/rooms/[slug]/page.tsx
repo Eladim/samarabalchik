@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   if (!isRoomSlug(slug)) return {};
   return {
-    title: `${titleMap[slug]} | Samara Complex`,
-    description: `View details and gallery for our ${titleMap[slug]} at Samara Complex in Balchik.`,
+    title: `${titleMap[slug]} | Samara`,
+    description: `View details and gallery for our ${titleMap[slug]} at Samara in Balchik.`,
   };
 }
 
